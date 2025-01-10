@@ -1,10 +1,12 @@
 # signin_practice
 
-A new Flutter project.
+Проект с deeplink для открытия самого приложения
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+В терминале надо прописать эту команду, и приложение будет открыто
+
+adb shell am start -a android.intent.action.VIEW -d "http://localhost" com.example.signin_practice
 
 A few resources to get you started if this is your first Flutter project:
 
